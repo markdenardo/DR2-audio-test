@@ -1,0 +1,170 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/2020.3.0f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/mdn/Desktop/dr2/DR2-audio-test
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54609
+Successfully changed project path to: /Users/mdn/Desktop/dr2/DR2-audio-test
+/Users/mdn/Desktop/dr2/DR2-audio-test
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 39.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.0f1 (c7b5465681fb)
+[Subsystems] Discovering subsystems at path /Applications/2020.3.0f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/mdn/Desktop/dr2/DR2-audio-test/Assets
+GfxDevice: creating device client; threaded=0
+2021-04-07 16:54:52.445 Unity[5336:815127] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics (low power)
+2021-04-07 16:54:52.445 Unity[5336:815127] Metal devices available: 1
+2021-04-07 16:54:52.445 Unity[5336:815127] 0: Intel(R) Iris(TM) Plus Graphics (low power)
+2021-04-07 16:54:52.446 Unity[5336:815127] Using device Intel(R) Iris(TM) Plus Graphics (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics
+Initialize mono
+Mono path[0] = '/Applications/2020.3.0f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/2020.3.0f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/2020.3.0f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56336
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/2020.3.0f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/2020.3.0f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/2020.3.0f1/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
+Registered in 0.000838 seconds.
+Native extension for Lumin target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 34.34 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.939 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002126 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Mono: successfully reloaded assembly
+- Completed reload, in  0.997 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/2020.3.0f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.74 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.1 MB.
+System memory in use after: 91.2 MB.
+
+Unloading 76 unused Assets to reduce memory usage. Loaded Objects now: 1615.
+Total: 2.860023 ms (FindLiveObjects: 0.321759 ms CreateObjectMapping: 0.052763 ms MarkObjects: 2.379471 ms  DeleteObjects: 0.104861 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/PdAssets/patch_editor_abs
+  artifactKey: Guid(b7718715316b04cde9af94fff737128a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PdAssets/patch_editor_abs using Guid(b7718715316b04cde9af94fff737128a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07bdb564f4e507bd94f6c5cb06783e9c') in 0.037833 seconds
+  Import took 0.044565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/PdAssets/patch_editor_abs/1to4-switch.pd
+  artifactKey: Guid(5dec59d98291b484bae79ee507c4141c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PdAssets/patch_editor_abs/1to4-switch.pd using Guid(5dec59d98291b484bae79ee507c4141c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d6b0ca4130083186aa3fc8296efc32') in 0.263149 seconds
+  Import took 0.264917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.838719 seconds.
+  path: Assets/PdAssets/patch_editor_abs/bitcrush.pd
+  artifactKey: Guid(b1fbcac7307c7471a997bc1e2f6cbf26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PdAssets/patch_editor_abs/bitcrush.pd using Guid(b1fbcac7307c7471a997bc1e2f6cbf26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbfb5b1962c258a58f2a6f7665e7e572') in 0.005013 seconds
+  Import took 0.011857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.119738 seconds.
+  path: Assets/PdAssets/main.pd
+  artifactKey: Guid(92800731dcd9b48c2be91f962d94d65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PdAssets/main.pd using Guid(92800731dcd9b48c2be91f962d94d65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ca762b8238e80a65d5d97c354b32794') in 0.003862 seconds
+  Import took 0.006881 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002506 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library /Applications/2020.3.0f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Plugins/FMOD/lib/mac/fmodstudioL.bundle/Contents/MacOS/fmodstudioL
+Fallback handler could not load library /Applications/2020.3.0f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Plugins/FMOD/lib/mac/fmodstudioL.bundle/Contents/MacOS/fmodstudioL.dylib
+Fallback handler could not load library /Applications/2020.3.0f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Plugins/FMOD/lib/mac/fmodstudioL.bundle/Contents/MacOS/fmodstudioL.so
+Fallback handler could not load library /Applications/2020.3.0f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Plugins/FMOD/lib/mac/fmodstudioL.bundle/Contents/MacOS/fmodstudioL.bundle
+Native extension for Lumin target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Mono: successfully reloaded assembly
+- Completed reload, in  1.642 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 432 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.0 MB.
+System memory in use after: 104.1 MB.
+
+Unloading 71 unused Assets to reduce memory usage. Loaded Objects now: 1618.
+Total: 2.229507 ms (FindLiveObjects: 0.221760 ms CreateObjectMapping: 0.071454 ms MarkObjects: 1.837363 ms  DeleteObjects: 0.096850 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002179 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Mono: successfully reloaded assembly
+- Completed reload, in  1.021 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 432 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.2 MB.
+System memory in use after: 104.2 MB.
+
+Unloading 71 unused Assets to reduce memory usage. Loaded Objects now: 1621.
+Total: 1.840703 ms (FindLiveObjects: 0.162221 ms CreateObjectMapping: 0.043546 ms MarkObjects: 1.577350 ms  DeleteObjects: 0.056666 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

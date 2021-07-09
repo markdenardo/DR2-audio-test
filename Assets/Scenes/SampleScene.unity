@@ -426,7 +426,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 966406280}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
@@ -544,10 +544,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0508a2eb5345471dab87bb4be80e9f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  patchName: 
+  patchName: main
   patchDir: 
-  patch: {fileID: 0}
-  pipePrintToConsole: 0
+  patch: {fileID: 102900000, guid: 92800731dcd9b48c2be91f962d94d65a, type: 3}
+  pipePrintToConsole: 1
   pureDataEvents:
     Bang:
       m_PersistentCalls:
